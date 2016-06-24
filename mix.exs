@@ -27,6 +27,10 @@ defmodule Recurrence.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:mix_test_watch, "~> 0.2", only: :dev},
+      {:timex, "~> 2.2.1"},
+      {:apex, "~>0.5.0"}
+    ]
   end
 end
