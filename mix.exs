@@ -30,7 +30,7 @@ defmodule Recurrence.Mixfile do
     [
       {:mix_test_watch, "~> 0.2", only: :dev},
       {:timex, "~> 2.2.1"},
-      {:apex, "~>0.5.0"}
+      {:apex, "~>0.5.0", only: [:dev, :test]}
     ]
   end
 end
